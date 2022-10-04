@@ -32,8 +32,8 @@ const Sidebar = ({ active }) => {
           </MainMenuDiv>
         )}
       </Link>
-      <Link to="/Finder" className="link">
-        {active === "finder" ? (
+      <Link to="/Signup" className="link">
+        {active === "signup" ? (
           <MainMenuDiv style={{ backgroundColor: "#cacaca" }}>
             <Icon src={clickedExplore}></Icon>
             <MenuSpan>로그인</MenuSpan>
@@ -45,7 +45,7 @@ const Sidebar = ({ active }) => {
           </MainMenuDiv>
         )}
       </Link>
-      <Link to="/Subscribe" className="link">
+      <Link to="/Subscribe" className="link"> 
         {active === "subscribe" ? (
           <MainMenuDiv style={{ backgroundColor: "#cacaca" }}>
             <Icon src={clicedSub}></Icon>

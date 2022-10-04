@@ -1,8 +1,10 @@
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Finder from "./pages/Finder";
 import Main from "./pages/Main";
+import Signup from "./pages/Signup";
 import Subscribe from "./pages/Subscribe";
 import Layout from "./shared/Layout";
+
 
 function App() {
   return (
@@ -14,8 +16,8 @@ function App() {
           element={<Layout active="main" content={<Main />} />}
         />
         <Route
-          path="/Finder"
-          element={<Layout active="finder" content={<Finder />} />}
+          path="/Signup"
+          element={<Layout active="finder" content={<Signup />} />}
         />
         <Route
           path="/Subscribe"
